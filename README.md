@@ -5,7 +5,7 @@
 
 <p>
   <strong>Zihao Zheng<sup>1</sup></strong> 
-  <strong>Hangyu Cao<sup>2</sup></strong> 
+  <strong><a href="https://github.com/i6bimua">Hangyu Cao</a><sup>2</sup></strong> 
   <strong>Jiayu Chen<sup>1</sup></strong> 
   <strong>Sicheng Tian<sup>3</sup></strong> 
   <strong>Chenyue Li<sup>2</sup></strong><br>
