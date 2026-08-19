@@ -1,0 +1,55 @@
+{
+  "model": {
+    "name": "Toy-VLA (illustrative values only)",
+    "layers": [
+      {
+        "name": "vision_encoder",
+        "compute_flops": 800000000000,
+        "memory_bytes": 1200000000,
+        "parameter_bytes": 900000000,
+        "output_bytes": 534528
+      },
+      {
+        "name": "llm_block_group_0",
+        "compute_flops": 1800000000000,
+        "memory_bytes": 5200000000,
+        "parameter_bytes": 4800000000,
+        "output_bytes": 104448
+      },
+      {
+        "name": "llm_block_group_1",
+        "compute_flops": 1800000000000,
+        "memory_bytes": 5200000000,
+        "parameter_bytes": 4800000000,
+        "output_bytes": 26112
+      },
+      {
+        "name": "action_decoder",
+        "compute_flops": 200000000000,
+        "memory_bytes": 600000000,
+        "parameter_bytes": 500000000,
+        "output_bytes": 56
+      }
+    ]
+  },
+  "hardware": {
+    "cloud": {
+      "name": "Cloud GPU (illustrative)",
+      "peak_flops_per_second": 300000000000000,
+      "memory_bandwidth_bytes_per_second": 1500000000000,
+      "parallel_efficiency": 0.35
+    },
+    "edge": {
+      "name": "Edge GPU (illustrative)",
+      "peak_flops_per_second": 50000000000000,
+      "memory_bandwidth_bytes_per_second": 250000000000,
+      "parallel_efficiency": 0.25
+    }
+  },
+  "network": {
+    "bandwidth_bytes_per_second": 10000000,
+    "fixed_latency_ms": 1.0
+  },
+  "max_cloud_load": 10500000000
+}
+
