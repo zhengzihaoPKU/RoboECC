@@ -277,6 +277,6 @@ If you find RoboECC useful in your research, please cite:
 
 ## Acknowledgements
 
-RoboECC evaluates edge-cloud deployment with [OpenVLA](https://github.com/openvla/openvla), [CogACT](https://github.com/microsoft/CogACT), [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), and [SimplerEnv](https://github.com/simpler-env/SimplerEnv). We thank their authors and contributors for releasing their work.
+RoboECC evaluates edge-cloud deployment with [OpenVLA](https://github.com/openvla/openvla), [CogACT](https://github.com/microsoft/CogACT), [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), and [SimplerEnv](https://github.com/simpler-env/SimplerEnv). We thank their authors and contributors for releasing their work. We also thank [Zhihao Mao](https://github.com/lusunn111) for contributing to this repository.
 
 Figure 1 is reproduced from the [RoboECC paper](https://arxiv.org/abs/2603.20711) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
